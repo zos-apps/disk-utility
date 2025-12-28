@@ -20,7 +20,21 @@
         "height": 500
       },
       "resizable": true
-    }
+    },
+    "about": "Manage disks, partitions, and storage devices.",
+    "help": [
+      "Select disk from sidebar",
+      "View info in main panel",
+      "Use toolbar for actions"
+    ],
+    "docs": "https://zos-apps.github.io/disk-utility",
+    "site": "https://github.com/zos-apps/disk-utility",
+    "features": [
+      "Disk information",
+      "Partition management",
+      "First aid",
+      "Erase & format"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +67,13 @@
     "disk-utility",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

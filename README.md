@@ -1,54 +1,74 @@
-# 💾 Disk Utility
+# Disk Utility
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/disk-utility/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/disk-utility)
+💾 Manage disks, partitions, and storage devices.
 
-> Manage disks, partitions, and volumes
+[![CI](https://github.com/zos-apps/disk-utility/actions/workflows/ci.yml/badge.svg)](https://github.com/zos-apps/disk-utility/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@zos-apps/disk-utility.svg)](https://www.npmjs.com/package/@zos-apps/disk-utility)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**[Documentation](https://zos-apps.github.io/disk-utility)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
+## About
 
-## Installation
-
-```bash
-npm install github:zos-apps/disk-utility
-```
-
-Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
-
-## Usage
-
-```tsx
-import DiskUtility from '@zos-apps/disk-utility';
-
-function App() {
-  return <DiskUtility />;
-}
-```
+Manage disks, partitions, and storage devices.
 
 ## Features
 
-- Native zOS window integration
-- Dark mode support
+- Disk information
+- Partition management
+- First aid
+- Erase & format
 
-- Context menu actions
-- Menu bar integration
+## Installation
 
-## Category
+### From App Store
+Open the **App Store** in zOS and search for "Disk Utility".
 
-**System**
+### Via npm
+```bash
+npm install @zos-apps/disk-utility
+```
 
-## Permissions
+## Usage
 
-- `storage`
+- Select disk from sidebar
+- View info in main panel
+- Use toolbar for actions
 
-## Links
 
-- [Documentation](https://zos-apps.github.io/disk-utility)
-- [GitHub Repository](https://github.com/zos-apps/disk-utility)
-- [Report Issues](https://github.com/zos-apps/disk-utility/issues)
-- [All zOS Apps](https://github.com/zos-apps)
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Documentation
+
+- [User Guide](https://zos-apps.github.io/disk-utility)
+- [API Reference](https://zos-apps.github.io/disk-utility/api)
+- [Changelog](https://github.com/zos-apps/disk-utility/releases)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/zos-apps/disk-utility/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
 MIT © [Hanzo AI](https://hanzo.ai)
+
+---
+
+<p align="center">
+  <a href="https://hanzo.ai">
+    <img src="https://hanzo.ai/logo.svg" alt="Hanzo AI" width="100">
+  </a>
+</p>
+<p align="center">
+  Built with ❤️ by <a href="https://hanzo.ai">Hanzo AI</a>
+</p>
