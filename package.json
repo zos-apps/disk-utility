@@ -34,7 +34,26 @@
       "Partition management",
       "First aid",
       "Erase & format"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/disk-utility"
+    },
+    "featured": false,
+    "tags": [
+      "system",
+      "utility",
+      "disk utility"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/disk-utility/issues",
+    "changelog": "https://github.com/zos-apps/disk-utility/releases"
   },
   "scripts": {
     "build": "tsup",
