@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface DiskUtilityProps {
   onClose: () => void;
@@ -21,7 +21,7 @@ const mockVolumes: Volume[] = [
   { id: '4', name: 'USB Flash', type: 'external', format: 'FAT32', capacity: 32, used: 8, mountPoint: '/Volumes/USB' },
 ];
 
-const DiskUtility: React.FC<DiskUtilityProps> = ({ onClose }) => {
+const DiskUtility: React.FC<DiskUtilityProps> = ({ onClose: _onClose }) => {
   const [volumes] = useState(mockVolumes);
   const [selectedId, setSelectedId] = useState<string | null>('1');
 
